@@ -18,7 +18,13 @@ connectDB();
 app.use("/auth",require("./routes/auth_Routes"));
 
 app.get("/",(req,res)=>{
-    res.json("Landing page");
+    res.json({
+"Register Route":"https://login-register-jwt.onrender.com/auth/register/",
+"Login Route":"https://login-register-jwt.onrender.com/auth/login/",
+"Change Password Route": "https://login-register-jwt.onrender.com/auth/change-password/",
+"Password Reset Request": "https://login-register-jwt.onrender.com/auth/reset-password/"
+"Password Reset Submission: "https://login-register-jwt.onrender.com/auth/reset-password/"
+});
 });
 app.get("*",(req,res)=>{
     res.json("404 Error Page");
