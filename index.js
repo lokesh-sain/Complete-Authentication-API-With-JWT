@@ -23,13 +23,13 @@ app.get("/",(req,res)=>{
 "Login Route":"https://login-register-jwt.onrender.com/auth/login/",
 "Change Password Route": "https://login-register-jwt.onrender.com/auth/change-password/",
 "Password Reset Request": "https://login-register-jwt.onrender.com/auth/reset-password/"
-"Password Reset Submission: "https://login-register-jwt.onrender.com/auth/reset-password/"
+"Password Reset Submission": "https://login-register-jwt.onrender.com/auth/reset-password/"
 });
 });
 app.get("*",(req,res)=>{
     res.json("404 Error Page");
-})
+});
 
 app.listen(PORT,()=>{
     console.log(`Server is listening on ${PORT}`);
-})
+});
