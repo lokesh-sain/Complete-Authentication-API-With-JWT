@@ -22,7 +22,7 @@ app.get("/",(req,res)=>{
 "Register Route":"https://login-register-jwt.onrender.com/auth/register/",
 "Login Route":"https://login-register-jwt.onrender.com/auth/login/",
 "Change Password Route": "https://login-register-jwt.onrender.com/auth/change-password/",
-"Password Reset Request": "https://login-register-jwt.onrender.com/auth/reset-password/"
+"Password Reset Request": "https://login-register-jwt.onrender.com/auth/reset-password/",
 "Password Reset Submission": "https://login-register-jwt.onrender.com/auth/reset-password/"
 });
 });
